@@ -11,6 +11,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "jest": "^24.1.0"
+    "jest": "^24.1.0",
+    "yelp-fusion": "^3.0.0"
   }
 }
