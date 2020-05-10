@@ -27,8 +27,8 @@ const grandTotal = (stores) => {
   let newArr =[];
   for(let i in hoursOpen){
     let storeHourlySale = 0;
-    for(let j in cookieStores){
-      storeHourlySale += cookieStores[j][i];
+    for(let j in stores){
+      storeHourlySale += stores[j][i];
     }
     newArr.push(storeHourlySale);
   }
