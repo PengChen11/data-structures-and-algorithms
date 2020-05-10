@@ -25,7 +25,7 @@ two approches:
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![img1](./assets/array_reverse.png)
+![img1](assets/array_reverse.png)
 
 
 
