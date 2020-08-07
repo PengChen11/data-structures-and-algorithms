@@ -1,9 +1,6 @@
 # data-structures-and-algorithms for code 301
 Part of growing as a programmer is to practice, practice, practice. Throughout Code Fellows 301 course, I will complete a set of daily code challenges. Each set will contain up to ten problems.
 
-# data-structures-and-algorithms for code 401
-## 1. Reverse an Array
-
 ## Challenge
 <!-- Description of the challenge -->
 write a function to take an array as input, output an array with elements in reversed order
@@ -26,9 +23,6 @@ two approches:
 ## Solution
 <!-- Embedded whiteboard image -->
 ![img1](assets/array_reverse.PNG)
-
-
-
 
 # Contributor
 Peng Chen
