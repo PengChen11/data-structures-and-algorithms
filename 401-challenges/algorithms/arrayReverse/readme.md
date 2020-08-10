@@ -33,4 +33,4 @@ Note: There is no test requirement for Class01. Going forward you will be requir
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![img1](wb.PNG)
+![img1](array_reverse.png)
