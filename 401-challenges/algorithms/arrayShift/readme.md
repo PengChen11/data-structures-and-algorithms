@@ -27,4 +27,4 @@ Write a function called insertShiftArray which takes in an array and the value t
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![img1](wb.PNG)
+![img1](array_shift.png)
