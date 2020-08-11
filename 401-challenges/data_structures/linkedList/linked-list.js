@@ -8,17 +8,40 @@ class Node{
 }
 
 class LinkedList {
-  constructor(head){
+  constructor(head=undefined){
     this.head = head;
   }
 
-  add(value){
+  insert(value){
     let newNode = new Node(value);
-    return;
+    if (this.head === undefined) this.head = newNode;
+    else {
+      newNode.next = this.head;
+      this.head = newNode;
+    }
   }
+
+  includes(value){
+    let current = this.head;
+    while (current){
+      if (current.value === value) return true;
+      current = current.next;
+    }
+    return false;
+  }
+
   toString(){
-    return;
+    let current = this.head;
+    let output='';
+    if (current === undefined) return 'NULL';
+    while (current){
+      output += `{ ${current.value} } -> `;
+      current = current.next;
+    }
+    output += `NULL`;
+    return output;
   }
 }
 
 module.exports = LinkedList;
+
