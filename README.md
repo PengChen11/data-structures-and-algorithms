@@ -10,7 +10,7 @@ Part of growing as a programmer is to practice, practice, practice. Throughout C
 
 [2. Insert and shift an array in middle at index](401-challenges/algorithms/arrayShift/readme.md)
 
-<!-- [3. Binary search in a sorted 1D array](dsa/challenges/array_binary_search/readme.md) -->
+[3. Binary search in a sorted 1D array](401-challenges/algorithms/arrayBinarySearch/readme.md)
 
 <!-- [4. Given a matrix, find the sum of each row.](dsa/challenges/sum_2D_array/readme.md) -->
 
@@ -42,7 +42,7 @@ Part of growing as a programmer is to practice, practice, practice. Throughout C
 
 ## Data structure challenges
 
-<!-- [1. Linked list](dsa/data_structures/linked_list/readme.md) -->
+[1. Linked list](401-challenges/data_structures/linkedList/readme.md)
 
 <!-- [2. Merge two linked lists](dsa/data_structures/ll_merge/readme.md) -->
 
