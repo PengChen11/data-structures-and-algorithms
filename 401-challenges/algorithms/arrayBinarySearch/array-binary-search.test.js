@@ -19,9 +19,10 @@ describe('Testing [11,22,33,44,55,66,77] with 90', () => {
 describe('Testing 100 element array (0-99) with 56', () => {
   test('It should return index number 56', () => {
     let arr = [];
-    for (let i=0; i<100; i++) arr.push(i);
+    for (let i=0; i<10; i++) arr.push(i);
+    let arr1 =arr;
 
-    expect(binarySearch(arr, 56)).toStrictEqual(56);
+    expect(binarySearch(arr1, 6)).toStrictEqual(6);
   });
 });
 

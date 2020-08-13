@@ -4,7 +4,9 @@
 
 [Click here to see the tester](linked-list.test.js)
 
-## Features
+## 1st assignment
+
+### Features
 
 - Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
 - Within your LinkedList class, include a head property. Upon instantiation, an empty Linked List should be created.
@@ -15,7 +17,7 @@
 - Any exceptions or errors that come from your code should be semantic, capturable errors. For example, rather than a default error thrown by your language, your code should raise/throw a custom, semantic error that describes what went wrong in calling the methods you wrote for this lab.
 - Be sure to follow your language/frameworks standard naming conventions `(e.g. C# uses PascalCasing for all method and class names)`.
 
-## Structure and Testing
+### Structure and Testing
 
 Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge. You will be given feedback and marked down if you attempt to define a large, complex algorithm in one function definition.
 
@@ -31,6 +33,64 @@ Write tests to prove the following functionality:
 
 Ensure your tests are passing before you submit your solution.
 
-## Stretch Goal
+### Stretch Goal
 
 Create a new branch called doubly-linked-list, and, using the resources available to you online, implement a doubly linked list `(completely separate from your singly linked list)`.
+
+## 2nd Assignment
+
+### Features
+
+Write the following methods for the Linked List class:
+
+- `.append(value)` which adds a new node with the given value to the end of the list
+- `.insertBefore(value, newVal)` which add a new node with the given newValue immediately before the first value node
+- `.insertAfter(value, newVal)` which add a new node with the given newValue immediately after the first value node
+
+Examples
+
+**`.append(value)`**
+
+|Input|Args|Output|
+|---|---|---|
+|`head -> [1] -> [3] -> [2] -> X`|5|`head -> [1] -> [3] -> [2] -> [5] -> X`|
+|`head -> X`|1|`head -> [1] -> X`|
+
+**`.insertBefore(value, newVal)`**
+
+|Input|Args|Output|
+|---|---|---|
+|`head -> [1] -> [3] -> [2] -> X`|3, 5|`head -> [1] -> [5] -> [3] -> [2] -> X`|
+|`head -> [1] -> [3] -> [2] -> X`|1, 5|`head -> [5] -> [1] -> [3] -> [2] -> X`|
+|`head -> [1] -> [2] -> [2] -> X`|2, 5|`head -> [1] -> [5] -> [2] -> [2] -> X`|
+|`head -> [1] -> [3] -> [2] -> X`|4, 5|Exception|
+
+**`.insertAfter(value, newVal)`**
+
+|Input|Args|Output|
+|---|---|---|
+|`head -> [1] -> [3] -> [2] -> X`|3, 5|`head -> [1] -> [3] -> [5] -> [2] -> X`|
+|`head -> [1] -> [3] -> [2] -> X`|2, 5|`head -> [1] -> [3] -> [2] -> [5] -> X`|
+|`head -> [1] -> [2] -> [2] -> X`|2, 5|`head -> [1] -> [2] -> [5] -> [2] -> X`|
+|`head -> [1] -> [3] -> [2] -> X`|4, 5|Exception
+
+### Unit Tests
+
+Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge. You will be given feedback and marked down if you attempt to define a large, complex algorithm in one function definition.
+
+You have access to the Node class and all the properties on the Linked List class.
+
+Write tests to prove the following functionality:
+
+1. Can successfully add a node to the end of the linked list
+2. Can successfully add multiple nodes to the end of a linked list
+3. Can successfully insert a node before a node located i the middle of a linked list
+4. Can successfully insert a node before the first node of a linked list
+5. Can successfully insert after a node in the middle of the linked list
+6. Can successfully insert a node after the last node of the linked list
+
+Unit tests must be passing before you submit your final solution code.
+
+### Stretch Goal
+
+Once you’ve achieved a working solution, write an additional method to delete a node with the given value from the linked list.
