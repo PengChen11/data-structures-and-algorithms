@@ -7,9 +7,9 @@ const LinkedList = require('./linked-list');
 // });
 
 describe('Test new empty linked list class', () => {
-  test('The head should be undefined', () => {
+  test('The head should be null', () => {
     let testLL = new LinkedList;
-    expect(testLL.head).toStrictEqual(undefined);
+    expect(testLL.head).toStrictEqual(null);
   });
 });
 
@@ -176,6 +176,34 @@ describe('Test to insert node(s) after a node located in a linked list', () => {
     testLL.append(3);
     testLL.append(2);
     expect(()=>{testLL.insertAfter(4,5);}).toThrow('Can not find value 4 in linked list');
+  });
+
+});
+
+describe('Test to delete node(s) from a linked list', () => {
+
+  test('Starts with 1, need to delete , should return NULL', () => {
+    let testLL = new LinkedList;
+    testLL.insert(1);
+    testLL.delete(1);
+    expect(testLL.toString()).toStrictEqual('NULL');
+  });
+
+  test('Starts with 1, 3, 2, need to delete 3, should return 1, 2', () => {
+    let testLL = new LinkedList;
+    testLL.insert(1);
+    testLL.append(3);
+    testLL.append(2);
+    testLL.delete(3);
+    expect(testLL.toString()).toStrictEqual('{ 1 } -> { 2 } -> NULL');
+  });
+
+  test('Starts with 1, 3, 2, need to delete 5, should throw error', () => {
+    let testLL = new LinkedList;
+    testLL.insert(1);
+    testLL.append(3);
+    testLL.append(2);
+    expect(()=>{testLL.delete(5);}).toThrow('Can not find value 5 in linked list');
   });
 
 });
