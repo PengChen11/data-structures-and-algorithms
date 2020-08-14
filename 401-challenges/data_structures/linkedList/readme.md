@@ -37,13 +37,13 @@ Ensure your tests are passing before you submit your solution.
 
 Create a new branch called doubly-linked-list, and, using the resources available to you online, implement a doubly linked list `(completely separate from your singly linked list)`.
 
-## API
+### API
 <!-- Description of each method publicly available to your Linked List -->
 1. **.insert()** method will take a list of values, insert them before the head of the linked list. Use a for loop to check the length of value to be inserted, link them together, then reset the linked list head to the new head value, link the last inserted value's next value to the previous head of the list.
 2. **.includes()** method use while loop to check every single value of the linked list, if it find a match, then return True, otherwise, Faluse.
 3. **__str__()** method use the while loop too, find every value in the linked list, convert to string, format to { value } and added "->" between values and then output the whole values as one signle string.
 
-## Solutions:
+### Solutions:
 ![generate](generate.png)
 
 ---------
@@ -106,12 +106,57 @@ Unit tests must be passing before you submit your final solution code.
 
 Once you’ve achieved a working solution, write an additional method to delete a node with the given value from the linked list.
 
-## API
+### API
 
 1. the **.append()** method loops into the linked list, find the last value, then add it to the end.
 2. the **.insertBefore()** method loops into the linked list, find the target value, then add new value before it.
 3. the **.insertAfter()** method loops into the linked list, find the target value, then add new value after it.
 
-## Solutions:
+### Solutions:
 
 ![insertion](insertion.png)
+
+-------
+
+## 3rd assignment
+
+k-th value from the end of a linked list.
+
+### Features
+
+- Write a method ```.reverseSearch``` for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list. You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+Example
+```ll.kthFromEnd(k)```
+
+|Input ll|Arg k|Output|
+|---|---|---|
+|`head -> [1] -> [3] -> [8] -> [2] -> X`|0|2|
+|`head -> [1] -> [3] -> [8] -> [2] -> X`|2|3|
+|`head -> [1] -> [3] -> [8] -> [2] -> X`|6|Exception|
+
+### Unit test
+
+1. Where k is greater than the length of the linked list
+2. Where k and the length of the list are the same
+3. Where k is not a positive integer
+4. Where the linked list is of a size 1
+5. “Happy Path” where k is not at the end, but somewhere in the middle of the linked list
+
+### API
+
+1. the **.reverseSearch(key)** method used two trackers to track the node:
+   1. a current tracker, starts with head, moves forward until the end.
+   2. a keyFinder tracker, wait current trackers to move ahead key steps, then start to move.
+   3. When current tracker reaches the end, the keyFInder tracker is at the Node we're looking for.
+   4. Big O of time is `O(n)`
+
+2. The **.findMid()** method used two trackers too:
+   1. a current tracker, starts with head, moves forward until the end.
+   2. a mid tracker, moves one step when current tracker moves two steps.
+   3. when current tracker reaches the end, the mid tracker is at the node we're looking for.
+   4. Big O of time is `O(n)`
+
+### Solutions:
+
+![insertion](reverse.png)

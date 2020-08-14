@@ -107,6 +107,38 @@ class LinkedList {
     }
     throw new Error(`Can not find value ${value} in linked list`);
   }
+
+  reverseSearch(key){
+    if (key<0 || !Number.isInteger(key)) throw new Error(`Key has to be an int, and can NOT be a negative int`);
+    let current = this.head;
+    let keyFinder = this.head;
+    for (let i = 0; i<key; i++){
+      if (keyFinder===null){
+        throw new Error(`Linked list does NOT have the ${key}th value from the end`);
+      }
+      keyFinder = keyFinder.next;
+    }
+    while (keyFinder){
+      if (!keyFinder.next) break;
+      keyFinder = keyFinder.next;
+      current = current.next;
+    }
+    return current.value;
+  }
+
+  findMid(){
+    if (this.head === null) return null;
+    let current = this.head;
+    let midVal = this.head;
+    while (current){
+      if (current.next === null) return midVal.value;
+      else if (current.next.next === null) return midVal.next.value;
+      else {
+        current = current.next.next;
+        midVal = midVal.next;
+      }
+    }
+  }
 }
 
 module.exports = LinkedList;
