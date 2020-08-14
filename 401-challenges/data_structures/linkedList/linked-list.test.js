@@ -207,3 +207,86 @@ describe('Test to delete node(s) from a linked list', () => {
   });
 
 });
+
+
+describe('Test to find k-th value from the end of a linked list.', () => {
+
+  test('When k is greater than the length of the linked list, need to throw error', () => {
+    let testLL = new LinkedList;
+    testLL.insert(1);
+    testLL.append(3);
+    testLL.append(8);
+    testLL.append(2);
+    expect(()=>{testLL.reverseSearch(6);}).toThrow('Linked list does NOT have the 6th value from the end');
+  });
+
+  test('When k and the length of the list are the same, need to reture head value', () => {
+    let testLL = new LinkedList;
+    testLL.insert(1);
+    testLL.append(3);
+    testLL.append(8);
+    testLL.append(2);
+    expect(testLL.reverseSearch(4)).toBe(testLL.head.value);
+  });
+
+  test('When k is not a positive integer, need to throw error', () => {
+    let testLL = new LinkedList;
+    testLL.insert(1);
+    testLL.append(3);
+    testLL.append(8);
+    testLL.append(2);
+    expect(()=>{testLL.reverseSearch(-1);}).toThrow('Key has to be an int, and can NOT be a negative int');
+    expect(()=>{testLL.reverseSearch(2.5);}).toThrow('Key has to be an int, and can NOT be a negative int');
+  });
+
+  test('When the linked list is of a size 1, key is 0, need to reture head value', () => {
+    let testLL = new LinkedList;
+    testLL.insert(1);
+    expect(testLL.reverseSearch(0)).toBe(testLL.head.value);
+  });
+
+  test('given 1, 3, 8, 2, and key 2, need to reture 3', () => {
+    let testLL = new LinkedList;
+    testLL.insert(1);
+    testLL.append(3);
+    testLL.append(8);
+    testLL.append(2);
+    expect(testLL.reverseSearch(2)).toBe(3);
+  });
+});
+
+
+describe('Test to find the value in the middle of a linked list.', () => {
+
+  test('When no node is stored in the linked list, need to return null', () => {
+    let testLL = new LinkedList;
+    expect(testLL.findMid()).toBe(null);
+  });
+
+  test('When just 1 node is stored in the linked list, need to return head value', () => {
+    let testLL = new LinkedList;
+    testLL.insert(1);
+    expect(testLL.findMid()).toBe(testLL.head.value);
+  });
+
+  test('When odd number of nodes are stored in the linked list, need to return middle one', () => {
+    let testLL = new LinkedList;
+    testLL.insert(1);
+    testLL.append(2);
+    testLL.append(3);
+    testLL.append(4);
+    testLL.append(5);
+    expect(testLL.findMid()).toBe(3);
+  });
+
+  test('When even number of nodes are stored in the linked list, need to return value at middle index(index starts 0)', () => {
+    let testLL = new LinkedList;
+    testLL.insert(1);
+    testLL.append(2);
+    testLL.append(3);
+    testLL.append(4);
+    testLL.append(5);
+    testLL.append(6);
+    expect(testLL.findMid()).toBe(4);
+  });
+});
