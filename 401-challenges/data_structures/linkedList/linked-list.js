@@ -1,20 +1,20 @@
 'use strict';
 
 class Node{
-  constructor(value, next=undefined){
+  constructor(value, next=null){
     this.value = value;
     this.next = next;
   }
 }
 
 class LinkedList {
-  constructor(head=undefined){
+  constructor(head=null){
     this.head = head;
   }
 
   insert(value){
     let newNode = new Node(value);
-    if (this.head === undefined) this.head = newNode;
+    if (this.head === null) this.head = newNode;
     else {
       newNode.next = this.head;
       this.head = newNode;
@@ -33,7 +33,7 @@ class LinkedList {
   toString(){
     let current = this.head;
     let output='';
-    if (current === undefined) return 'NULL';
+    if (current === null) return 'NULL';
     while (current){
       output += `{ ${current.value} } -> `;
       current = current.next;
@@ -46,7 +46,7 @@ class LinkedList {
     let current = this.head;
     let newNode = new Node(value);
     while (current){
-      if (current.next === undefined) {
+      if (current.next === null) {
         current.next = newNode;
         break;
       }
@@ -86,6 +86,24 @@ class LinkedList {
         return;
       }
       current = current.next;
+    }
+    throw new Error(`Can not find value ${value} in linked list`);
+  }
+
+  delete(value){
+    let current = this.head;
+    let next = current.next;
+    if (current.value===value) {
+      this.head = null;
+      return;
+    }
+    while (next){
+      if (next.value===value){
+        current.next = next.next;
+        return;
+      }
+      current = current.next;
+      next = next.next;
     }
     throw new Error(`Can not find value ${value} in linked list`);
   }
