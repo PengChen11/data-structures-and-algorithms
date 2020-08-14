@@ -41,6 +41,54 @@ class LinkedList {
     output += `NULL`;
     return output;
   }
+
+  append(value){
+    let current = this.head;
+    let newNode = new Node(value);
+    while (current){
+      if (current.next === undefined) {
+        current.next = newNode;
+        break;
+      }
+      current = current.next;
+    }
+  }
+
+  insertBefore(value, newVal){
+    let current = this.head;
+    let newNode = new Node(newVal);
+    if (current.value === value){
+      let temp = current;
+      this.head = newNode;
+      newNode.next = temp;
+      return;
+    }
+    while (current.next) {
+      if (current.next.value === value){
+        let temp = current.next;
+        current.next = newNode;
+        newNode.next = temp;
+        return;
+      }
+      current = current.next;
+    }
+    throw new Error(`Can not find value ${value} in linked list`);
+  }
+
+  insertAfter(value, newVal){
+    let current = this.head;
+    let newNode = new Node(newVal);
+    while (current) {
+      if (current.value === value){
+        let temp = current.next;
+        current.next = newNode;
+        newNode.next = temp;
+        return;
+      }
+      current = current.next;
+    }
+    throw new Error(`Can not find value ${value} in linked list`);
+  }
 }
 
 module.exports = LinkedList;
