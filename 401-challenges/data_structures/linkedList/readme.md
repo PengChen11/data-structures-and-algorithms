@@ -37,6 +37,17 @@ Ensure your tests are passing before you submit your solution.
 
 Create a new branch called doubly-linked-list, and, using the resources available to you online, implement a doubly linked list `(completely separate from your singly linked list)`.
 
+## API
+<!-- Description of each method publicly available to your Linked List -->
+1. **.insert()** method will take a list of values, insert them before the head of the linked list. Use a for loop to check the length of value to be inserted, link them together, then reset the linked list head to the new head value, link the last inserted value's next value to the previous head of the list.
+2. **.includes()** method use while loop to check every single value of the linked list, if it find a match, then return True, otherwise, Faluse.
+3. **__str__()** method use the while loop too, find every value in the linked list, convert to string, format to { value } and added "->" between values and then output the whole values as one signle string.
+
+## Solutions:
+![generate](generate.png)
+
+---------
+
 ## 2nd Assignment
 
 ### Features
@@ -94,3 +105,13 @@ Unit tests must be passing before you submit your final solution code.
 ### Stretch Goal
 
 Once you’ve achieved a working solution, write an additional method to delete a node with the given value from the linked list.
+
+## API
+
+1. the **.append()** method loops into the linked list, find the last value, then add it to the end.
+2. the **.insertBefore()** method loops into the linked list, find the target value, then add new value before it.
+3. the **.insertAfter()** method loops into the linked list, find the target value, then add new value after it.
+
+## Solutions:
+
+![insertion](insertion.png)
