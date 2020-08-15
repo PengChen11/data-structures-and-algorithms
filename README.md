@@ -46,7 +46,7 @@ Part of growing as a programmer is to practice, practice, practice. Throughout C
 
 <!-- [2. Merge two linked lists](dsa/data_structures/ll_merge/readme.md) -->
 
-<!-- [3. Stacks and Queues](dsa/data_structures/stacks_and_queues/readme.md) -->
+[2. Stacks and Queues](401-challenges/data_structures/stacksAndQueues/readme.md)
 
 <!-- [4. Tree](dsa/data_structures/tree/README.md) -->
 
@@ -56,4 +56,4 @@ Part of growing as a programmer is to practice, practice, practice. Throughout C
 
 ## 301 Challenge
 <!-- Description of the challenge -->
-Will be listed shortly.
+Will be listed shortly. They're just tricks to use JS built in methods.
