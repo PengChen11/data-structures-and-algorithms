@@ -56,4 +56,4 @@ Part of growing as a programmer is to practice, practice, practice. Throughout C
 
 ## 301 Challenge
 <!-- Description of the challenge -->
-Will be listed shortly.
+Will be listed shortly. They're just tricks to use JS built in methods.
