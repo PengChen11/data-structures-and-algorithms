@@ -12,7 +12,7 @@ Part of growing as a programmer is to practice, practice, practice. Throughout C
 
 [3. Binary search in a sorted 1D array](401-challenges/algorithms/arrayBinarySearch/readme.md)
 
-<!-- [4. Given a matrix, find the sum of each row.](dsa/challenges/sum_2D_array/readme.md) -->
+[4. Merge two linked lists](401-challenges/algroithms/../algorithms/llZip/readme.md)
 
 <!-- [5. Implement a Queue using two Stacks.](dsa/challenges/queue_with_stacks/README.md) -->
 
@@ -44,7 +44,6 @@ Part of growing as a programmer is to practice, practice, practice. Throughout C
 
 [1. Linked list](401-challenges/data_structures/linkedList/readme.md)
 
-<!-- [2. Merge two linked lists](dsa/data_structures/ll_merge/readme.md) -->
 
 [2. Stacks and Queues](401-challenges/data_structures/stacksAndQueues/readme.md)
 
