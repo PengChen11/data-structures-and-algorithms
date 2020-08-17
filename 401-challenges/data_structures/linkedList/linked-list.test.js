@@ -24,10 +24,11 @@ describe('Test insertion into the head of a new empty linked list', () => {
 describe('Test the head property can properly point to the first node in the linked list', () => {
   test('It should return c as value ', () => {
     let testLL = new LinkedList;
-    testLL.insert('a');
-    testLL.insert('b');
     testLL.insert('c');
-    expect(testLL.head.value).toStrictEqual('c');
+    testLL.insert('b');
+    testLL.insert('a');
+    expect(testLL.head.value).toStrictEqual('a');
+    expect(testLL.tail.value).toStrictEqual('c');
   });
 });
 
