@@ -51,14 +51,6 @@ class LinkedList {
       this.tail.next = newNode;
       this.tail = newNode;
     }
-
-    // while (current){
-    //   if (current.next === null) {
-    //     current.next = newNode;
-    //     break;
-    //   }
-    //   current = current.next;
-    // }
   }
 
   insertBefore(value, newVal){
