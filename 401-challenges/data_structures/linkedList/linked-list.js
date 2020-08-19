@@ -112,17 +112,17 @@ class LinkedList {
     let current = this.head;
     let keyFinder = this.head;
     for (let i = 0; i<key; i++){
-      if (keyFinder===null){
+      if (current===null){
         throw new Error(`Linked list does NOT have the ${key}th value from the end`);
       }
-      keyFinder = keyFinder.next;
+      current = current.next;
     }
-    while (keyFinder){
-      if (!keyFinder.next) break;
+    while (current){
+      if (!current.next) break;
       keyFinder = keyFinder.next;
       current = current.next;
     }
-    return current.value;
+    return keyFinder.value;
   }
 
   findMid(){
