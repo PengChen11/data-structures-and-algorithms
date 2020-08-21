@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --verbose",
-    "watch": "jest --watchAll"
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "jest": "^24.1.0",
+    "jest": "^26.4.1",
     "yelp-fusion": "^3.0.0"
   }
 }
