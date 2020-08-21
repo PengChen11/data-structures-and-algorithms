@@ -14,7 +14,7 @@ Part of growing as a programmer is to practice, practice, practice. Throughout C
 
 [4. Merge two linked lists](401-challenges/algroithms/../algorithms/llZip/readme.md)
 
-<!-- [5. Implement a Queue using two Stacks.](dsa/challenges/queue_with_stacks/README.md) -->
+[5. Implement a Queue using two Stacks.](401-challenges/algorithms/queueWithStacks/readme.md)
 
 <!-- [6. First-in, First out Animal Shelter.](dsa/challenges/fifo_animal_shelter/README.md) -->
 
@@ -43,7 +43,6 @@ Part of growing as a programmer is to practice, practice, practice. Throughout C
 ## Data structure challenges
 
 [1. Linked list](401-challenges/data_structures/linkedList/readme.md)
-
 
 [2. Stacks and Queues](401-challenges/data_structures/stacksAndQueues/readme.md)
 
