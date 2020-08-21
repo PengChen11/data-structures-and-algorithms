@@ -16,7 +16,7 @@ Part of growing as a programmer is to practice, practice, practice. Throughout C
 
 [5. Implement a Queue using two Stacks.](401-challenges/algorithms/queueWithStacks/readme.md)
 
-<!-- [6. First-in, First out Animal Shelter.](dsa/challenges/fifo_animal_shelter/README.md) -->
+[6. First-in, First out Animal Shelter.](401-challenges/algorithms/fifoAnimalShelter/readme.md)
 
 <!-- [7. Multi-bracket Validation.](dsa/challenges/multi_bracket_validation/README.md) -->
 
