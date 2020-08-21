@@ -2,6 +2,11 @@
 
 Part of growing as a programmer is to practice, practice, practice. Throughout Code Fellows 301 and 401 courses, I will complete a set of daily code challenges.
 
+This is my 2nd 401 course with Code Fellows and 2nd time to do all these challenges. The 1st time was done in Python, [click here to see the repo](https://github.com/PengChen11/python-data-structures-and-algorithms)
+
+When I am doing these challenges this time, I never look back my old code, and I realized this time my solutions sometime is way much more efficent in O(time) and O(space).
+
+
 ## 401 Challenges
 
 ## Algorithm challenges
@@ -18,7 +23,7 @@ Part of growing as a programmer is to practice, practice, practice. Throughout C
 
 [6. First-in, First out Animal Shelter.](401-challenges/algorithms/fifoAnimalShelter/readme.md)
 
-<!-- [7. Multi-bracket Validation.](dsa/challenges/multi_bracket_validation/README.md) -->
+[7. Multi-bracket Validation.](401-challenges/algorithms/multiBracketValidation/README.md)
 
 <!-- [8. Conduct “FizzBuzz” on a tree](dsa/challenges/fizz_buzz_tree/README.md) -->
 

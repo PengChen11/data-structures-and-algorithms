@@ -15,6 +15,6 @@
 big O for enqueue is O(1)
 big O for dequeue could be the number of animals in shelter in worst case, so O(n).
 
-## solution:
+## solution
 
 ![img](shelter.jpg)
