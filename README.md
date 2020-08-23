@@ -6,7 +6,6 @@ This is my 2nd 401 course with Code Fellows and 2nd time to do all these challen
 
 When I am doing these challenges this time, I never look back my old code, and I realized this time my solutions sometime is way much more efficent in O(time) and O(space).
 
-
 ## 401 Challenges
 
 ## Algorithm challenges
@@ -51,7 +50,7 @@ When I am doing these challenges this time, I never look back my old code, and I
 
 [2. Stacks and Queues](401-challenges/data_structures/stacksAndQueues/readme.md)
 
-<!-- [4. Tree](dsa/data_structures/tree/README.md) -->
+[3. Tree](401-challenges/data_structures/tree/readme.md)
 
 <!-- [5. Hash table](dsa/data_structures/hash_table/README.md) -->
 
