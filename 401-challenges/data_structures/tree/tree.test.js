@@ -40,7 +40,7 @@ describe('Binary Tree traverse tests', ()=>{
   });
 
   it('When traverse in an empty tree, error should be thrown', ()=>{
-    let testTree = new BTree;
+    let testTree = new BTree();
     expect(()=>{testTree.preOrder();}).toThrow('Can NOT traverse in an empty binary tree');
     expect(()=>{testTree.inOrder();}).toThrow('Can NOT traverse in an empty binary tree');
     expect(()=>{testTree.postOrder();}).toThrow('Can NOT traverse in an empty binary tree');
@@ -105,4 +105,33 @@ describe('binary search tree contains() tests', ()=>{
     let testTree = bsTreeBuilder();
     expect(()=>{testTree.contains();}).toThrow('Value can NOT be null');
   });
+});
+
+
+describe('binary tree find maximum value function test', ()=>{
+
+  it('find max value function will throw error if given empty tree', ()=>{
+    let testTree = new BTree();
+    expect(()=>{testTree.findMaxVal();}).toThrow('Can NOT find any value in an empty binary tree');
+  });
+
+  it('can find the max value in the binary tree', ()=>{
+    let testTree = bTreeBuilder();
+    expect(testTree.findMaxVal()).toBe(7);
+  });
+});
+
+
+describe('Binary tree breadth first traverse function test', ()=>{
+
+  it('function will throw error if an empty tree being given', ()=>{
+    let testTree = new BTree();
+    expect(()=>{testTree.breadthFirst();}).toThrow('');
+  });
+
+  it('breadth traverse will return correct values', ()=>{
+    let testTree = bTreeBuilder();
+    expect(testTree.breadthFirst()).toStrictEqual([1,2,3,4,5,6,7]);
+  });
+
 });
