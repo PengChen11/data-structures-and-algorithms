@@ -120,3 +120,18 @@ describe('binary tree find maximum value function test', ()=>{
     expect(testTree.findMaxVal()).toBe(7);
   });
 });
+
+
+describe('Binary tree breadth first traverse function test', ()=>{
+
+  it('function will throw error if an empty tree being given', ()=>{
+    let testTree = new BTree();
+    expect(()=>{testTree.breadthFirst();}).toThrow('');
+  });
+
+  it('breadth traverse will return correct values', ()=>{
+    let testTree = bTreeBuilder();
+    expect(testTree.breadthFirst()).toStrictEqual([1,2,3,4,5,6,7]);
+  });
+
+});

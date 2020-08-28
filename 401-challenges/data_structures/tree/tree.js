@@ -1,5 +1,7 @@
 'use strict';
 
+const {Queue} = require('../stacksAndQueues/stacks-and-queues');
+
 class Node{
   constructor(value, left=null, right=null){
     this.value = value;
@@ -67,12 +69,12 @@ class Tree{
   findMaxVal(){
     if (!this.root) throw new Error('Can NOT find any value in an empty binary tree');
     let output;
+    //use pre-order method to travese inside of the tree
     function traverse(root){
-      // get the value first. (always root -> left -> right)
+      //compair the root value with output value. replace output value if root value is greater than it
       if (!output) output=root.value;
       else if (output < root.value) output = root.value;
 
-      //then traverse to the left;
       if (root.left) traverse(root.left);
       if (root.right) traverse(root.right);
     }
@@ -81,12 +83,25 @@ class Tree{
     return output;
   }
 
+  breadthFirst(){
+    if (!this.root) throw new Error('Can NOT traverse in an empty binary tree');
+    let output = [];
+    let queue = new Queue();
+    queue.enqueue(this.root);
+    while (!queue.isEmpty()){
+      let current = queue.dequeue();
+      output.push(current.value);
+      if (current.left) queue.enqueue(current.left);
+      if (current.right) queue.enqueue(current.right);
+    }
+    return output;
+  }
 
 }
 
-class BinarySearchTree{
+class BinarySearchTree extends Tree{
   constructor(){
-    this.root= null;
+    super();
   }
 
   add(value){
