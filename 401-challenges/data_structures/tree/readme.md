@@ -40,13 +40,14 @@ Write tests to prove the following functionality:
 - In-order: ```25, 50, 75, 100, 155, 200```
 - Post-order: ```25, 75, 50, 155, 200, 100```
 
-<!-- ![img](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-17/binary-tree.png) -->
+<!-- ![img](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-17/binary-tree.png)
 
-<!-- - Breadth first: ```[2,7,5,2,6,9,5,11,4]```
-![img](tree.png)
+- Breadth first: ```[2,7,5,2,6,9,5,11,4]```
+![img](tree.png) -->
 
-- max value:
-![img](max.png) -->
+### max value
+
+![img](max.png)
 
 ## Big O
 
@@ -64,3 +65,11 @@ For O space, all methods require O(n) cause we're building up call stacks.
 - for O space:
   - add() using while loop, only taking addtional 1 space
   - contains() using recursion, takes O(n) space to build up call stacks.
+
+### find max value
+
+- for O time:
+  - it takes O(n) to compaire every value inside of the tree and find the max
+
+- for O space:
+  - it take O(1) extra space.

@@ -64,6 +64,22 @@ class Tree{
 
   }
 
+  findMaxVal(){
+    if (!this.root) throw new Error('Can NOT find any value in an empty binary tree');
+    let output;
+    function traverse(root){
+      // get the value first. (always root -> left -> right)
+      if (!output) output=root.value;
+      else if (output < root.value) output = root.value;
+
+      //then traverse to the left;
+      if (root.left) traverse(root.left);
+      if (root.right) traverse(root.right);
+    }
+
+    traverse(this.root);
+    return output;
+  }
 
 
 }
