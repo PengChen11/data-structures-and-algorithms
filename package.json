@@ -7,11 +7,16 @@
     "test": "jest --verbose --coverage",
     "test-watch": "jest --watchAll --verbose --coverage"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "jest": "^26.4.1",
     "yelp-fusion": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
   }
 }
