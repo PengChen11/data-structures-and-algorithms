@@ -10,23 +10,29 @@ When I am doing these challenges this time, I never look back my old code, and I
 
 ## Algorithm challenges
 
-[1. Reverse an Array](401-challenges/algorithms/arrayReverse/readme.md)
+1. [Reverse an Array](401-challenges/algorithms/arrayReverse/readme.md)
 
-[2. Insert and shift an array in middle at index](401-challenges/algorithms/arrayShift/readme.md)
+2. [Insert and shift an array in middle at index](401-challenges/algorithms/arrayShift/readme.md)
 
-[3. Binary search in a sorted 1D array](401-challenges/algorithms/arrayBinarySearch/readme.md)
+3. [Binary search in a sorted 1D array](401-challenges/algorithms/arrayBinarySearch/readme.md)
 
-[4. Merge two linked lists](401-challenges/algroithms/../algorithms/llZip/readme.md)
+4. [Merge two linked lists](401-challenges/algroithms/../algorithms/llZip/readme.md)
 
-[5. Implement a Queue using two Stacks.](401-challenges/algorithms/queueWithStacks/readme.md)
+5. [Implement a Queue using two Stacks.](401-challenges/algorithms/queueWithStacks/readme.md)
 
-[6. First-in, First out Animal Shelter.](401-challenges/algorithms/fifoAnimalShelter/readme.md)
+6. [First-in, First out Animal Shelter.](401-challenges/algorithms/fifoAnimalShelter/readme.md)
 
-[7. Multi-bracket Validation.](401-challenges/algorithms/multiBracketValidation/README.md)
+7. [Multi-bracket Validation.](401-challenges/algorithms/multiBracketValidation/README.md)
 
-[8. Conduct “FizzBuzz” on a tree](401-challenges/algrothms/../algorithms/fizzBuzzTree/readme.md)
+8. [Conduct “FizzBuzz” on a tree](401-challenges/algrothms/../algorithms/fizzBuzzTree/readme.md)
 
-<!-- [9. Insertion sort](dsa/challenges/insertion_sort/README.md) -->
+9. All kinds of sorting methods
+
+    - [1. Bubble Sort](401-challenges/algorithms/sort/1_bubble_sort/bubble_sort.md)
+
+    - [2. Selection Sort](401-challenges/algorithms/sort/2_selection_sort/selection_sort.md)
+
+    - [3. Insertion Sort](401-challenges/algorithms/sort/3_insertion_sort/insertion_sort.md)
 
 <!-- [10. Merge sort](dsa/challenges/merge_sort/README.md) -->
 
@@ -46,11 +52,11 @@ When I am doing these challenges this time, I never look back my old code, and I
 
 ## Data structure challenges
 
-[1. Linked list](401-challenges/data_structures/linkedList/readme.md)
+1. [Linked list](401-challenges/data_structures/linkedList/readme.md)
 
-[2. Stacks and Queues](401-challenges/data_structures/stacksAndQueues/readme.md)
+2. [Stacks and Queues](401-challenges/data_structures/stacksAndQueues/readme.md)
 
-[3. Tree](401-challenges/data_structures/tree/readme.md)
+3. [Tree](401-challenges/data_structures/tree/readme.md)
 
 <!-- [5. Hash table](dsa/data_structures/hash_table/README.md) -->
 
