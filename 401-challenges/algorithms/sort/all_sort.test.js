@@ -3,6 +3,7 @@
 const bubble = require('./1_bubble_sort/bubble_sort');
 const selection = require('./2_selection_sort/selection_sort');
 const insertion = require('./3_insertion_sort/insertion_sort');
+const merge = require('./4_merge_sort/merge_sort');
 
 function testForAll(sortMethod, methodName){
   describe(`Sorting array with ${methodName} sort method`, ()=>{
@@ -40,5 +41,7 @@ testForAll(bubble, 'Bubble');
 testForAll(selection, 'Selection');
 
 testForAll(insertion, 'Insertion');
+
+testForAll(merge, 'Merge');
 
 
