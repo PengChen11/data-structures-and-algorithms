@@ -6,6 +6,10 @@ Merge sort is a sorting algorithm that:
 2. split the left part into two pieces again, until there's only one element in the array.
 3. combine from pieces up in sorted arrangement.
 
+[Click here to see the code](merge_sort.js)
+
+[Click here to see the tester](../all_sort.test.js)
+
 ## Pseudo Code
 
 ```pseudo
