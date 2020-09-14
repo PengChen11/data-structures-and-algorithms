@@ -4,11 +4,11 @@ Part of growing as a programmer is to practice, practice, practice. Throughout C
 
 This is my 2nd 401 course with Code Fellows and 2nd time to do all these challenges. The 1st time was done in Python, [click here to see the repo](https://github.com/PengChen11/python-data-structures-and-algorithms)
 
-When I am doing these challenges this time, I never look back my old code, and I realized this time my solutions sometime is way much more efficent in O(time) and O(space).
+When doing these challenges this time, a few months after I started the Python 401 class,  I realized that my thought process is changed in the great way. This time some of my solutions are way much more efficent in O(time) and O(space).
 
 ## 401 Challenges
 
-## Algorithm challenges
+### Algorithm challenges
 
 1. [Reverse an Array](401-challenges/algorithms/arrayReverse/readme.md)
 
@@ -34,9 +34,9 @@ When I am doing these challenges this time, I never look back my old code, and I
 
     - [3. Insertion Sort](401-challenges/algorithms/sort/3_insertion_sort/insertion_sort.md)
 
-<!-- [10. Merge sort](dsa/challenges/merge_sort/README.md) -->
+    - [4. Merge Sort](401-challenges/algorithms/sort/4_merge_sort/merge_sort.md)
 
-<!-- [11. Quick sort](dsa/challenges/quick_sort/README.md) -->
+    - [5. Quick sort](401-challenges/algorithms/sort/5_quick_sort/quick_sort.md)
 
 <!-- [12. Repeated Word](dsa/challenges/repeated_word/README.md) -->
 
@@ -50,7 +50,7 @@ When I am doing these challenges this time, I never look back my old code, and I
 
 <!-- [17. Depth-first traversal on a graph](dsa/challenges/depth_first/readme.md) -->
 
-## Data structure challenges
+### Data structure challenges
 
 1. [Linked list](401-challenges/data_structures/linkedList/readme.md)
 
