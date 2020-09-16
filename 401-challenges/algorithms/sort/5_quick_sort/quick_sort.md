@@ -6,6 +6,10 @@ Quick sort is a sorting algorithm that:
 2. Choose the last element as pivot element and partitioning the array around it.
 3. Left side of pivot contains all the elements that are elss than the pivot element, right side of pivot contains all the elements greater than the pivot.
 
+[Click here to see the code](quick_sort.js)
+
+[Click here to see the tester](../all_sort.test.js)
+
 ## Pseudo Code
 
 ```Pseudo
