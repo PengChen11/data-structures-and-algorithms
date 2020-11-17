@@ -43,4 +43,4 @@ Big O effciency for this function is O(n).
 
 ## Solution
 
-![img](1.PNG)
+![img](repeatedWord.png)

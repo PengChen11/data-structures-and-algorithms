@@ -38,7 +38,7 @@ When doing these challenges this time, a few months after I started the Python 4
 
     - [5. Quick sort](401-challenges/algorithms/sort/5_quick_sort/quick_sort.md)
 
-<!-- [12. Repeated Word](dsa/challenges/repeated_word/README.md) -->
+10. [Repeated Word](401-challenges/algorithms/repeatedWord/repeatedWord.md)
 
 <!-- [13. Tree intersection](dsa/challenges/tree_intersection/README.md) -->
 
