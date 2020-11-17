@@ -58,7 +58,7 @@ When doing these challenges this time, a few months after I started the Python 4
 
 3. [Tree](401-challenges/data_structures/tree/readme.md)
 
-<!-- [5. Hash table](dsa/data_structures/hash_table/README.md) -->
+4. [Hash table](401-challenges/data_structures/hashTable/hashTable.md)
 
 <!-- [6. Graph](dsa/data_structures/graph/readme.md) -->
 
