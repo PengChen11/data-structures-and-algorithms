@@ -21,7 +21,9 @@ class HashTable {
     if (value){
       let current = linkedList.head;
       while (current){
-        if (current.value[0]===key && current.value[1]===value){
+
+        if (current.value[0]===key){
+          current.value[1]=value;
           return;
         }
         current = current.next;

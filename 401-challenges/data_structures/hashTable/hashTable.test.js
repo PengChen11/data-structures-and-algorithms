@@ -18,15 +18,15 @@ describe('hash table tests', ()=>{
   });
 
 
-  it('can duplicate requests to add the same key value pair', ()=>{
+  it('can update value for exsiting key value pair', ()=>{
     let testTable = new HashTable(10);
     testTable.add('test_key', 'test_value');
-    testTable.add('test_key', 'test_value');
+    testTable.add('test_key', 'test_value_updated');
 
     testTable.table.forEach(key => {
       if (key){
         expect (key.head.value[0]).toBe('test_key');
-        expect (key.head.value[1]).toBe('test_value');
+        expect (key.head.value[1]).toBe('test_value_updated');
       }
     });
   });
