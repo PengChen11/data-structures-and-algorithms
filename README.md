@@ -40,7 +40,7 @@ When doing these challenges this time, a few months after I started the Python 4
 
 10. [Repeated Word](401-challenges/algorithms/repeatedWord/repeatedWord.md)
 
-<!-- [13. Tree intersection](dsa/challenges/tree_intersection/README.md) -->
+11. [Tree intersection](401-challenges/algorithms/treeIntersection/treeIntersection.md)
 
 <!-- [14. Left Join two hash tables](dsa/challenges/left_join/README.md) -->
 
