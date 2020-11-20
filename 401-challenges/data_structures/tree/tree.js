@@ -108,11 +108,14 @@ class BinarySearchTree extends Tree{
     if (!value) throw new Error('Can NOT add null to Binary Search Tree.');
 
     let newNode = new Node(value);
-    if (!this.root) this.root = newNode;
+    if (!this.root) {
+      this.root = newNode;
+      return;
+    }
 
     let current = this.root;
     while(current){
-      if (current.value>= value){
+      if (current.value >= value){
         if (current.left){
           current = current.left;
           continue;
