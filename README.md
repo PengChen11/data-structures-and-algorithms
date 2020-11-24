@@ -42,7 +42,7 @@ When doing these challenges this time, a few months after I started the Python 4
 
 11. [Tree intersection](401-challenges/algorithms/treeIntersection/treeIntersection.md)
 
-<!-- [14. Left Join two hash tables](dsa/challenges/left_join/README.md) -->
+12. [Left Join two hash tables](401-challenges/algorithms/leftJoin/leftJoin.md)
 
 <!-- [15. breadth-first traversal on a graph](dsa/challenges/breadth_first/readme.md) -->
 
