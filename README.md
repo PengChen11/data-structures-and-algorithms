@@ -60,7 +60,7 @@ When doing these challenges this time, a few months after I started the Python 4
 
 4. [Hash table](401-challenges/data_structures/hashTable/hashTable.md)
 
-<!-- [6. Graph](dsa/data_structures/graph/readme.md) -->
+5. [Graph](401-challenges/data_structures/graph/graph.md)
 
 ## 301 Challenge
 <!-- Description of the challenge -->
