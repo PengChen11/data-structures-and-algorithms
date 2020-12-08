@@ -44,7 +44,7 @@ When doing these challenges this time, a few months after I started the Python 4
 
 12. [Left Join two hash tables](401-challenges/algorithms/leftJoin/leftJoin.md)
 
-<!-- [15. breadth-first traversal on a graph](dsa/challenges/breadth_first/readme.md) -->
+13. [breadth-first traversal on a graph](401-challenges/algorithms/breadth-first-graph/bft.md)
 
 <!-- [16. get edges](dsa/challenges/get_edge/readme.md) -->
 
