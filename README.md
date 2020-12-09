@@ -46,7 +46,7 @@ When doing these challenges this time, a few months after I started the Python 4
 
 13. [breadth-first traversal on a graph](401-challenges/algorithms/breadth-first-graph/bft.md)
 
-<!-- [16. get edges](dsa/challenges/get_edge/readme.md) -->
+14. [get edges](401-challenges/algorithms/graph-get-edges/get-edges.md)
 
 <!-- [17. Depth-first traversal on a graph](dsa/challenges/depth_first/readme.md) -->
 
