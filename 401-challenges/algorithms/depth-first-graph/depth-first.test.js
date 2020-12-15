@@ -1,7 +1,7 @@
 'use strict';
 
 const Graph = require('../../data_structures/graph/graph.js').Graph;
-const depthFirst = require('./depth-first.js');
+const {depthFirst, depthFirstV2} = require('./depth-first.js');
 
 test('testing', ()=>{
 
@@ -30,6 +30,8 @@ test('testing', ()=>{
   const toArr = [];
   result.forEach(vertex=>toArr.push(vertex.value));
   expect(toArr).toStrictEqual(['A', 'B', 'C', 'G', 'D', 'E', 'H', 'F']);
+  const resultV2 = depthFirstV2(testGraph, vertexA);
+  expect(result).toStrictEqual(resultV2);
 
 });
 
