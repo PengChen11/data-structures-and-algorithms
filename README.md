@@ -1,16 +1,16 @@
-# Javascript data structures and algorithms practics for code 301 and 401
+# Javascript data structures and algorithms practice for code 301 and 401
 
 Part of growing as a programmer is to practice, practice, practice. Throughout Code Fellows 301 and 401 courses, I will complete a set of daily code challenges.
 
 This is my 2nd 401 course with Code Fellows and 2nd time to do all these challenges. The 1st time was done in Python, [click here to see the repo](https://github.com/PengChen11/python-data-structures-and-algorithms)
 
-When doing these challenges this time, a few months after I started the Python 401 class,  I realized that my thought process is changed in the great way. This time some of my solutions are way much more efficent in O(time) and O(space).
+When doing these challenges this time, a few months after I started the Python 401 class,  I realized that my thought process is changed in the great way. This time some of my solutions are way much more efficient in O(time) and O(space).
 
 ## 401 Challenges
 
 ### Algorithm challenges
 
-1. [Reverse an Array](401-challenges/algorithms/arrayReverse/readme.md)
+1. [Reverse an Array](./401-challenge-docs/1-array-reverse.md)
 
 2. [Insert and shift an array in middle at index](401-challenges/algorithms/arrayShift/readme.md)
 

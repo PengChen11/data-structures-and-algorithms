@@ -2,9 +2,11 @@
 
 Reverse an array.
 
-[Click here to see the code](array_reverse.js)
+[Click here to see the code in JavaScript](../401-challenges/algorithms/arrayReverse/array_reverse.js)
 
-[Click here to see the tester](array_reverse.test.js)
+[Click here to see the tester in JavaScript](../401-challenges/algorithms/arrayReverse/array_reverse.test.js)
+
+[Click here to see the code in Java](../401-java-challenges/algorithms/ArrayReverse.java)
 
 ## Feature Tasks
 
