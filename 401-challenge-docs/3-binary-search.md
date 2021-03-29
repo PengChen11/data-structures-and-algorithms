@@ -2,9 +2,13 @@
 
 Binary search in a sorted 1D array
 
-[Click here to see the code](array-binary-search.js)
+[Click here to see the JavaScript code](../401-challenges/algorithms/arrayBinarySearch/array-binary-search.js)
 
-[Click here to see the tester](array-binary-search.test.js)
+[Click here to see the JavaScript tester](../401-challenges/algorithms/arrayBinarySearch/array-binary-search.test.js)
+
+[Click here to see the JAVA code](../401-java-challenges/lib/src/main/java/challenges/BinarySearch.java)
+
+[Click here to see the JAVA tester code](../401-java-challenges/lib/src/test/java/challenges/BinarySearchTest.java)
 
 ## Feature Tasks
 
@@ -19,7 +23,7 @@ Binary search in a sorted 1D array
 |[4,8,15,16,23,42], 15|2|
 |[11,22,33,44,55,66,77], 90|-1|
 
-![img](https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif)
+![binary search gif](https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif)
 
 ## Resources
 
@@ -32,10 +36,10 @@ Once you’ve achieved a working solution, benchmark with varying array sizes `(
 ## Approach & Efficiency
 
 1. Big O is `O(log(n))`
-2. compair the key with element that has the middle index first, if key is smaller than that element, get rid or the greater half of the array, do the search again; vice versa.
+2. compare the key with element that has the middle index first, if key is smaller than that element, get rid or the greater half of the array, do the search again; vice versa.
 3. if match is found, return the index;
 4. if not, return -1;
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![img1](array_binary_search.png)
+![binary search](array_binary_search.png)

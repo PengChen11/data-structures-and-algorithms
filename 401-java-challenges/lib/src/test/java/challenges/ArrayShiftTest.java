@@ -10,7 +10,7 @@ public class ArrayShiftTest {
         int[] expectedArr = {2,4,5,6,8};
         ArrayList expected = listGenerator(expectedArr);
         ArrayList actual = ArrayShift.insertShiftArray(listGenerator(testArr), 5);
-        assertEquals("two arrives should be the same", expected, actual);
+        assertEquals("Should add the value after the middle index", expected, actual);
     }
 
     @Test public void testArrayShift2() {
@@ -18,7 +18,7 @@ public class ArrayShiftTest {
         int[] expectedArr = {4,8,15,16,23,42};
         ArrayList expected = listGenerator(expectedArr);
         ArrayList actual = ArrayShift.insertShiftArray(listGenerator(testArr), 16);
-        assertEquals("two arrives should be the same", expected, actual);
+        assertEquals("Should add the value after the middle index", expected, actual);
     }
 
     private ArrayList listGenerator (int[] arr){

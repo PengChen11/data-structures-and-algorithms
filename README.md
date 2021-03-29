@@ -16,7 +16,7 @@ When doing these challenges this time, a few months after I started the Python 4
 
 2. [Insert and shift an array in middle at index](./401-challenge-docs/2-array-shift.md)
 
-3. [Binary search in a sorted 1D array](401-challenges/algorithms/arrayBinarySearch/readme.md)
+3. [Binary search in a sorted 1D array](./401-challenge-docs/3-binary-search.md)
 
 4. [Merge two linked lists](401-challenges/algroithms/../algorithms/llZip/readme.md)
 
