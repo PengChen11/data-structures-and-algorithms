@@ -14,7 +14,7 @@ When doing these challenges this time, a few months after I started the Python 4
 
 1. [Reverse an Array](./401-challenge-docs/1-array-reverse.md)
 
-2. [Insert and shift an array in middle at index](401-challenges/algorithms/arrayShift/readme.md)
+2. [Insert and shift an array in middle at index](./401-challenge-docs/2-array-shift.md)
 
 3. [Binary search in a sorted 1D array](401-challenges/algorithms/arrayBinarySearch/readme.md)
 
