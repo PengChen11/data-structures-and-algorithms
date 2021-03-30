@@ -1,8 +1,12 @@
 # Implementation: Singly Linked Lists
 
-[Click here to see the code](linked-list.js)
+[Click here to see the JavaScript code](../401-challenges/data_structures/linkedList/linked-list.js)
 
-[Click here to see the tester](linked-list.test.js)
+[Click here to see the JavaScript tester](../401-challenges/data_structures/linkedList/linked-list.test.js)
+
+[Click here to see the JAVA code](../401-java-challenges/lib/src/main/java/challenges/linkedList/LinkedList.java)
+
+[Click here to see the JAVA tester code](../401-java-challenges/lib/src/test/java/challenges/linkedList/LinkedListTest.java)
 
 ## 1st assignment
 
@@ -40,10 +44,11 @@ Create a new branch called doubly-linked-list, and, using the resources availabl
 ### API
 <!-- Description of each method publicly available to your Linked List -->
 1. **.insert()** method will take a list of values, insert them before the head of the linked list. Use a for loop to check the length of value to be inserted, link them together, then reset the linked list head to the new head value, link the last inserted value's next value to the previous head of the list.
-2. **.includes()** method use while loop to check every single value of the linked list, if it find a match, then return True, otherwise, Faluse.
-3. **__str__()** method use the while loop too, find every value in the linked list, convert to string, format to { value } and added "->" between values and then output the whole values as one signle string.
+2. **.includes()** method use while loop to check every single value of the linked list, if it find a match, then return True, otherwise, False.
+3. **__str__()** method use the while loop too, find every value in the linked list, convert to string, format to { value } and added "->" between values and then output the whole values as one single string.
 
-### Solutions:
+### Solutions
+
 ![generate](generate.png)
 
 ---------

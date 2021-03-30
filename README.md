@@ -54,7 +54,7 @@ When doing these challenges this time, a few months after I started the Python 4
 
 ### Data structure challenges
 
-1. [Linked list](401-challenges/data_structures/linkedList/readme.md)
+1. [Linked list](./401-challenge-docs/1-linked-list.md)
 
 2. [Stacks and Queues](401-challenges/data_structures/stacksAndQueues/readme.md)
 
