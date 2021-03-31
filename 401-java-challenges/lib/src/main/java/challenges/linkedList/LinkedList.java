@@ -114,6 +114,29 @@ public class LinkedList {
         throw new Exception("Can NOT find the given value");
     }
 
+    public int kthFromEnd (int k) throws Exception {
+        // take care of edge case 1, when k is the tail of the linked list
+        if (k == 0) return this.tail.value;
+
+        Node current = this.head;
+        Node kthFromEnd = this.head;
+
+        for (int i =0; i<k; i++){
+            // takes care of another edge case, when k is greater than the qty of nodes stored in linked list
+            if (current == null) {
+                throw new Exception("k is out of range");
+            }
+            current = current.next;
+        }
+
+        while (current.next != null) {
+            current = current.next;
+            kthFromEnd = kthFromEnd.next;
+        }
+
+        return kthFromEnd.value;
+    }
+
 
 }
 

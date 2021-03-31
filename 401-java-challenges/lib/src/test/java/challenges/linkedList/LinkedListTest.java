@@ -113,4 +113,18 @@ public class LinkedListTest {
         Throwable exception2 = assertThrows(Exception.class, () -> linky.delete(5));
         assertEquals("Can NOT find the given value", exception2.getMessage());
     }
+
+    @Test public void testLinkedList_kthFromEnd() throws Exception{
+        LinkedList linky = new LinkedList();
+        linky.insert(1);
+        linky.append(3);
+        linky.append(8);
+        linky.append(2);
+        Throwable exception = assertThrows(Exception.class, () -> linky.kthFromEnd(6));
+        assertEquals("k is out of range", exception.getMessage());
+
+        assertEquals("should be able to locate the 0th from the rear", 2, linky.kthFromEnd(0));
+        assertEquals("should be able to locate the 2nd from the rear", 3, linky.kthFromEnd(2));
+
+    }
 }

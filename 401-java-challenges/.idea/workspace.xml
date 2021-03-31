@@ -43,34 +43,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Gradle.LinkedListTest.testLinkedList_delete">
+  <component name="RunManager" selected="Gradle.LinkedListTest.testLinkedList_kthFromEnd">
     <configuration name="LinkedListTest.testLinkedList_append" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;challenges.linkedList.LinkedListTest.testLinkedList_append&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LinkedListTest.testLinkedList_appendBefore" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenges.linkedList.LinkedListTest.testLinkedList_appendBefore&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -149,13 +128,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="LinkedListTest.testLinkedList_kthFromEnd" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;challenges.linkedList.LinkedListTest.testLinkedList_kthFromEnd&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LinkedListTest.testLinkedList_kthFromEnd" />
         <item itemvalue="Gradle.LinkedListTest.testLinkedList_delete" />
         <item itemvalue="Gradle.LinkedListTest.testLinkedList_append" />
         <item itemvalue="Gradle.LinkedListTest.testLinkedList_insertBefore" />
         <item itemvalue="Gradle.LinkedListTest.testLinkedList_insertAfter" />
-        <item itemvalue="Gradle.LinkedListTest.testLinkedList_appendBefore" />
       </list>
     </recent_temporary>
   </component>
