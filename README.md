@@ -1,14 +1,14 @@
-# Javascript data structures and algorithms practice for code 301 and 401
+# data structures and algorithms practice from Code Fellows 301 and 401 courses
 
 Part of growing as a programmer is to practice, practice, practice. Throughout Code Fellows 301 and 401 courses, I will complete a set of daily code challenges.
 
-The 2nd 401 course with Code Fellows was JavaScript. The 1st time was done in Python, [click here to see the repo](https://github.com/PengChen11/python-data-structures-and-algorithms)
+The 2nd 401 course with Code Fellows was JavaScript. The 1st time was done in Python, [click here to see the Python repo](https://github.com/PengChen11/python-data-structures-and-algorithms)
 
-Now it comes to the 3rd time, with Java. Each little challenges will be updated to include Java code in it.
+Now it comes to the 3rd time, with **Java**. Each little challenges will be updated to include **Java** code in it.
 
 When doing these challenges this time, a few months after I started the Python 401 class,  I realized that my thought process is changed in the great way. This time some of my solutions are way much more efficient in O(time) and O(space).
 
-## 401 Challenges
+## 401 Challenges (JavaScript and Java)
 
 ### Algorithm challenges
 
