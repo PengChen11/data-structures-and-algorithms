@@ -13,10 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "yelp-fusion": "^3.0.0"
-  },
   "devDependencies": {
-    "jest": "^26.4.2"
+    "jest": "^27.0.4"
   }
 }
