@@ -4,7 +4,9 @@ Part of growing as a programmer is to practice, practice, practice. Throughout C
 
 The 2nd 401 course with Code Fellows was JavaScript. The 1st time was done in Python, [click here to see the Python repo](https://github.com/PengChen11/python-data-structures-and-algorithms)
 
-Now it comes to the 3rd time, with **Java**. Each little challenges will be updated to include **Java** code in it. **NOTE:** The Java code is tested locally with Junit 4.13 and set up in IntelliJ.
+Now it comes to the 3rd time, with **Java**. Each little challenges will be updated to include **Java** code in it. 
+
+**NOTE:** The Java code is tested locally with Junit 4.13 and set up in IntelliJ.
 
 When doing these challenges this time, a few months after I started the Python 401 class,  I realized that my thought process is changed in the great way. This time some of my solutions are way much more efficient in O(time) and O(space).
 
