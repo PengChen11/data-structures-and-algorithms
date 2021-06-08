@@ -6,7 +6,9 @@ Reverse an array.
 
 [Click here to see the tester in JavaScript](../401-challenges/algorithms/arrayReverse/array_reverse.test.js)
 
-[Click here to see the code in Java](../401-java-challenges/algorithms/ArrayReverse.java)
+[Click here to see the code in Java](../401-java-project/algroithms/src/../../algorithms/src/ArrayReverse.java)
+
+[Click here to see the tester in Java](../401-java-project/algroithms/test/../../algorithms/test/ArrayReverseTest.java)
 
 ## Feature Tasks
 
